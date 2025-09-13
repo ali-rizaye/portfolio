@@ -361,7 +361,7 @@ LinkedIn: https://www.linkedin.com/in/ali-rezaye-79a64614a/`;
   }
 });
 
-// Download resume functionality
+// Download resume text based file rather than pdf.
 function downloadResume() {
   // Create a sample resume content
   const resumeContent = `ALI REZAYE
