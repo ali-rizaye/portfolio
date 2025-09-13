@@ -100,8 +100,8 @@ const projectData = {
             - Background job processing with retry logic
             - Comprehensive error handling and logging
             - Export functionality with multiple formats`,
-    repo: "https://github.com/ali-rezaye/author-taxon-cleaner",
-    live: "https://author-taxon-cleaner.demo.com",
+    repo: "https://github.com/ali-rizaye/taxon-cleaner",
+    live: "https://s59wyq-4201.csb.app/",
     preview: `<!DOCTYPE html>
             <html><head><style>
             body { font-family: Arial, sans-serif; padding: 20px; background: #f0f8ff; }
@@ -150,7 +150,7 @@ const projectData = {
                 - Interactive code examples
                 - Version-controlled documentation
                 - Automated deployment pipeline`,
-    repo: "https://github.com/ali-rezaye/symbiota2-docs",
+    repo: "https://github.com/ali-rizaye/symbiota2-docs",
     live: "https://symbiota2.org",
     preview: `<!DOCTYPE html>
             <html><head><style>
@@ -212,8 +212,8 @@ const projectData = {
             - Vanilla JavaScript ES6+ features
             - API integration and error handling
             - Progressive enhancement principles`,
-    repo: "https://github.com/ali-rezaye/odin-project",
-    live: "https://ali-rezaye.github.io/odin-project",
+    repo: "https://github.com/ali-rizaye",
+    live: "https://ali-rizaye.github.io/odin-projects",
     preview: `<!DOCTYPE html>
             <html><head><style>
             body { font-family: 'Segoe UI', sans-serif; margin: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; }
@@ -344,8 +344,8 @@ copyContactBtn.addEventListener("click", async () => {
   const contactInfo = `Ali Rezaye - Full-Stack JavaScript Developer
 Email: ali.elham1252@gmail.com
 Phone: +93 791 870 614
-GitHub: https://github.com/ali-rezaye
-LinkedIn: https://linkedin.com/in/ali-rezaye`;
+GitHub: https://github.com/ali-rizaye
+LinkedIn: https://www.linkedin.com/in/ali-rezaye-79a64614a/`;
 
   try {
     await navigator.clipboard.writeText(contactInfo);
@@ -371,8 +371,8 @@ CONTACT
 Email: ali.elham1252@gmail.com
 Phone: +93 791 870 614
 Location: Kabul, Afghanistan
-GitHub: github.com/ali-rezaye
-LinkedIn: linkedin.com/in/ali-rezaye
+GitHub: github.com/ali-rizaye
+LinkedIn: https://www.linkedin.com/in/ali-rezaye-79a64614a/
 
 SUMMARY
 Self-taught full-stack developer specializing in Angular frontends and NestJS backends. 
@@ -447,7 +447,7 @@ updateCurrentTime();
 setInterval(updateCurrentTime, 1000);
 
 // Smooth scrolling for anchor links
-document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+document.querySelectorAll('nav a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
     const target = document.querySelector(this.getAttribute("href"));
@@ -527,4 +527,4 @@ sections.forEach((section) => {
 
 console.log("🚀 Portfolio loaded successfully!");
 console.log("📧 Contact: ali.elham1252@gmail.com");
-console.log("💻 GitHub: https://github.com/ali-rezaye");
+console.log("💻 GitHub: https://github.com/ali-rizaye");
